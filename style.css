@@ -15,7 +15,7 @@ body {
 #img_banner{
   display: block;
   position: relative;
-  margin-left: auto;
+  left: 28% ;
   margin-right: auto;
   width: 50%;
 }
@@ -28,7 +28,6 @@ body {
   border-radius: 50%;
   background-color: rgb(255, 140, 0,1.00);
   margin-top: 10px;
-
   top: 10px;
   left: 350px;
   backface-visibility: hidden;
@@ -113,7 +112,7 @@ body {
     line-height: 110px;
     vertical-align: bottom;
     position: absolute;
-    left: 0;
+    left: -2%;
     right: 0;
     top: 350px;
     bottom: 0;
