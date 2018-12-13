@@ -248,3 +248,19 @@ div.demo{
     top: 600px;
     right: 400px;
   }
+
+
+  .loader {
+  position: absolute;
+  top: 650px;
+  left: 65%;
+  width: 300px;
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  font-family: Roboto Mono;
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+}
+.loader:after {
+  content: '_';
