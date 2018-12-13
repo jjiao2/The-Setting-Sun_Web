@@ -252,8 +252,8 @@ div.demo{
 
   .loader {
   position: absolute;
-  top: 650px;
-  left: 65%;
+  top: -50px;
+  left: 30%;
   width: 300px;
   color: white;
   text-align: left;
@@ -264,3 +264,14 @@ div.demo{
 }
 .loader:after {
   content: '_';
+}
+
+#shot_three{
+position:inline-block;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+top: 600px;
+right: 50%px;
+z-index: -1;
+}
