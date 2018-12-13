@@ -300,6 +300,13 @@ right: 50%px;
   bottom: 0px;
 }
 
+.facebook{
+  position: absolute;
+  top: 595px;
+  left: 280px;
+  bottom: 0px;
+}
+
 #footer {
     position: absolute;
     top: 140%;
