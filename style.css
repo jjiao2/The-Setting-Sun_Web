@@ -86,23 +86,21 @@ body {
   }
 
   .transform {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: #FF5722;
-
-    animation: circle 0.5s;
-    ease-in-out 1;
-  animation-direction: alternate;
-  animation-fill-mode: forwards;
-  transform-origin: 0% 50%;
+    -webkit-transition: all 2s ease;
+    -moz-transition: all 2s ease;
+    -o-transition: all 2s ease;
+    -ms-transition: all 2s ease;
+    transition: all 2s ease;
   }
 
-
   .transform:active {
-    margin-top: 100px;
-    height: 200px;
-    width: 200px;
+    position:absolute;
+    top: 1200px;
+    height: 80px;
+    width: 80px;
+    transition: transform 300ms ease-in-out
+	pointer-events: none
+  animation-iteration-count: 1;
   }
 
 
