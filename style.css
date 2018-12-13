@@ -191,6 +191,16 @@ body {
   right: 170px;
 }
 
+#shot_two_five{
+  display: inline-block;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 600px;
+  left: 3%;
+}
+
+
 #cig{
   display: inline-block;
   position: absolute;
