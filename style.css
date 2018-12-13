@@ -293,6 +293,11 @@ margin-right: auto;
 top: 500px;
 right: 50%px;
 }
+
+#logos {
+  height: 30px;
+
+}
 .instagram {
   position: absolute;
   top: 130%;
@@ -302,9 +307,10 @@ right: 50%px;
 
 .facebook{
   position: absolute;
-  top: 595px;
+  /* top: 594px; */
   left: 280px;
-  bottom: 0px;
+  /* bottom: 0px; */
+  top: 4px;
 }
 
 #footer {
