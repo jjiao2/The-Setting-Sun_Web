@@ -275,3 +275,21 @@ top: 600px;
 right: 50%px;
 z-index: -1;
 }
+
+#shot_four{
+position:inline-block;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+top: 620px;
+right: 50%px;
+}
+
+#shot_five{
+position:inline-block;
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+top: 500px;
+right: 50%px;
+}
